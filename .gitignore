@@ -1,0 +1,296 @@
+# =============================
+# SAFETY-FIRST: Secrets & creds
+# =============================
+# Ignore env files but allow templates/samples
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Common secret file types
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.der
+*.cer
+*.csr
+*.gpg
+*.asc
+*.age
+*.jks
+*.keystore
+*.psafe3
+*.kdbx
+*.secret
+*.token
+*.cred
+*.credentials
+*.password
+
+# Local databases / state (often contain PII)
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db3
+
+# ==========================
+# OS / Editor / Misc noise
+# ==========================
+.DS_Store
+Thumbs.db
+Icon?
+ehthumbs.db
+*.swp
+*.swo
+*~
+.nfs*
+._*
+.vscode/
+.idea/
+*.iml
+.vs/
+*.code-workspace
+*.sublime-*
+
+# =================
+# Logs & temp junk
+# =================
+*.log
+logs/
+*.tmp
+tmp/
+.temp/
+.cache/
+*.bak
+*.old
+
+# =========================
+# Jupyter & notebook stuff
+# =========================
+.ipynb_checkpoints/
+.jupyter/lab/workspaces/
+
+# ======
+# Python
+# ======
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+.pybuilder/
+.tox/
+.nox/
+.site-packages/
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+*.spec  # pyinstaller
+.python-version
+
+# =
+# R
+# =
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# =====
+# Julia
+# =====
+.julia/
+Manifest.toml.bak
+
+# ====================
+# MATLAB / Octave etc.
+# ====================
+*.asv
+*.autosave
+*.mex*
+*.mat~
+*.m~
+*.mdl.*
+*.slxc
+*.slprj/
+
+# ====================
+# C / C++ / Fortran
+# ====================
+*.o
+*.obj
+*.a
+*.la
+*.lo
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+*.mod
+*.smod
+# Make-based deps
+*.d
+
+# ==========================
+# CMake / build directories
+# ==========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeScripts/
+Testing/
+compile_commands.json
+[bB]uild/
+build-*/
+cmake-build-*/
+
+# =========
+# Rust
+# =========
+target/
+# (Keep Cargo.lock by default)
+
+# ======
+# Go
+# ======
+bin/
+pkg/
+# (Keep go.mod and go.sum)
+
+# ==========================
+# Java / Kotlin / Scala / JVM
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.car
+hs_err_pid*
+replay_pid*
+.mvn/
+target/
+.gradle/
+build/
+out/
+
+# ==========================
+# Node / JS / TS / Web
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.next/
+.nuxt/
+.svelte-kit/
+dist/
+coverage/
+
+# =====================================
+# Datasets, models, and heavy artifacts
+# =====================================
+# Keep only tiny samples in Git. Put real data/artifacts locally.
+data/
+!data/.gitkeep
+!data/README.md
+!data/samples/**
+
+models/
+!models/.gitkeep
+!models/README.md
+!models/samples/**
+
+artifacts/
+checkpoints/
+
+# (Optional) Large media — uncomment to ignore by default
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.bmp
+# *.tif
+# *.tiff
+# *.webp
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+# *.wav
+# *.flac
+# *.mp3
+
+# ==========
+# Archives
+# ==========
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.7z
+*.rar
+
+# ======================
+# Lint/Tooling caches
+# ======================
+.eslintcache
+.stylelintcache
+.ruff_cache/
+.pre-commit*
+.mergelog
+.sass-cache/
+.parcel-cache/
+.cache-loader/
+
+# ==========================
+# Terraform / IaC (optional)
+# ==========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+
+# ==========================
+# Docker / Compose overrides
+# ==========================
+docker-compose.override.yml
+
+# ==========================
+# Common CLI credentials
+# ==========================
+.netrc
+.npmrc
+npmrc
+
+# ==========================
+# macOS trash (just in case)
+# ==========================
+.Trash/
