@@ -20,11 +20,11 @@
 - Algorithms & complexity (intro level): searching, approximation, bisection
 - Program design: testing, debugging, good style
 
-## Textbook (recommended)
+## Textbook 
 *Introduction to Computation and Programming Using Python* by **John V. Guttag** (MIT Press). Any recent edition works.  
 - MIT Press: https://mitpress.mit.edu/9780262542364/introduction-to-computation-and-programming-using-python/
 
-## Repo layout for this course (keep it tiny)
+## Repo layout for this course 
         6.0001__MIT/
         ├─ LOG.md # one-file course log (Date, Log #, Time Spent, Topics Next)
         ├─ lectures/
