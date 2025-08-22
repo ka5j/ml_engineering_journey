@@ -12,6 +12,10 @@
 
 - Lecture videos (playlist): https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA  
 
+- Course Resources: 
+    - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_styleguide/
+    - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_additional/
+
 - Downloadable package (videos/slides/code): https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/download/
 
 ## What you’ll learn (high level)

@@ -1,5 +1,24 @@
 # Notes — Lecture 01: What is Computation
 - High-level takeaways:
-- Definitions / key terms:
-- Examples / gotchas:
-- Questions to revisit:
+    - Went over course concepts and rules and way to succeed
+    - Went over how computers function at a very abstracted level and   explain how to speak to computers with sequences of steps
+    - Went over general coding procedures
+    - Went  over basic pyhton knowledge like programs, objects, data types,expressions, arthimetic operators, basic python variable nature
+
+- Definitions / key terms:  
+    - Python Program:
+        - A sequnce of definitions and commands executed by pyhton interpreter in a shell
+    - Commands:
+        - Instruct interpreter to do something
+    - Objects:
+        - Programs manipulate objects
+        - Can be Scalar (undivided structure)
+        - Can be non-scalar (have an internal structure that can be accessed)
+        - Use type(<object>) function in python to determine the specfic type of object 
+    - Scalar Objects:
+        - int -> Represent integers (ex. 6)
+        - float -> Represent real numbers (ex. 4.21)
+        - bool -> Represent boolean values (True/False)
+        - NoneType -> This type of object represents a null object and has no value
+- Examples / gotchas: None.
+- Questions to revisit: 

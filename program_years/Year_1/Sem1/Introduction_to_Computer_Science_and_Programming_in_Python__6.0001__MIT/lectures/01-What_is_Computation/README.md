@@ -1,15 +1,12 @@
 # Lecture 01 — What is Computation
 
 ## Links
-- **Video:** https://youtu.be/nykOeWgQcHM?si=awJiAVIFPrtqs_sx
-             https://youtu.be/Y6J8I056Ffw?si=WX2vzFQ-DJLm9xSZ 
-             https://youtu.be/F-_PKUUM-qY?si=oUyItADJ1c04DeIG 
-             https://youtu.be/EFCdr_43qmU?si=CNIW90ZrkVJRWR8s
-- **Notes/PDF:** (add link)
-- **Practice/Problem Set:** (add link)
+- **Videos:** 
+    - https://ocw.mit.edu/courses    6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-1-what-is-computation/
+    - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/in-class-questions-and-video-solutions/lecture-1-video-solutions/
 
-## My Notes (brief)
-- 
-
-## Key Ideas
-- 
+- **Notes/PDF:** 
+    - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_lec1/
+                 
+- **Practice/Problem Set:** 
+    - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/in-class-questions-and-video-solutions/lecture-1/
