@@ -80,6 +80,8 @@ tmp/
 # ======
 __pycache__/
 *.py[cod]
+*.pyc
+.ipynb_checkpoints/
 *.so
 *.pyd
 .pytest_cache/
